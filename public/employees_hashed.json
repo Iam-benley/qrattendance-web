@@ -1,0 +1,538 @@
+[
+  {
+    "employeeId": "03-9395",
+    "name": "BAYBAYAN, ALLYP ALBERT LEOMO",
+    "section": "OFFICE OF THE DISASTER RESPONSE MANAGEMENT DIVISION CHIEF",
+    "position": "SOCIAL WELFARE OFFICER V",
+    "employmentStatus": "PERMANENT",
+    "hash": "1d51e711d5c0c9a3"
+  },
+  {
+    "employeeId": "03-13010",
+    "name": "GAMBALA, JESSIEL MAE MELMIDA",
+    "section": "DISASTER RESPONSE INFORMATION AND MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "d613c8fda005c19e"
+  },
+  {
+    "employeeId": "03-12703",
+    "name": "DABU, WESLY AXLE BOADILLA",
+    "section": "REGIONAL RESOURCE OPERATIONS SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "ad37b6f042ddd220"
+  },
+  {
+    "employeeId": "03-0014",
+    "name": "BLANCO, MARIBEL MALANG",
+    "section": "OFFICE OF THE ASSISTANT REGIONAL DIRECTOR FOR ADMINISTRATION",
+    "position": "DIRECTOR III",
+    "employmentStatus": "PERMANENT",
+    "hash": "ba48105abc31f4f7"
+  },
+  {
+    "employeeId": "03-10734",
+    "name": "FERNANDEZ, JANELLE DIZON",
+    "section": "BUDGET SECTION",
+    "position": "PROJECT DEVELOPMENT OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "ea2ee182541f022d"
+  },
+  {
+    "employeeId": "03-10881",
+    "name": "MORALES, JENNIFER CAMPANG",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "PLANNING OFFICER IV",
+    "employmentStatus": "PERMANENT",
+    "hash": "8131a78dc414b0bf"
+  },
+  {
+    "employeeId": "03-11682",
+    "name": "ESPINA, WYNDELLE MAGDIRILA",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "ADMINISTRATIVE AIDE VI",
+    "employmentStatus": "PERMANENT",
+    "hash": "9ee8bf5bccb7ea84"
+  },
+  {
+    "employeeId": "03-13072",
+    "name": "TUAÑO, BENLEY EARL DINGLE",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "PROJECT DEVELOPMENT OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "e8cd87fce71663e4"
+  },
+  {
+    "employeeId": "03-12614",
+    "name": "SICAT, GIO MENDOZA",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "ADMINISTRATIVE OFFICER IV",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "7e7dd66198681a5e"
+  },
+  {
+    "employeeId": "03-12621",
+    "name": "PARAS, MICHAEL ANGELO BALNIG",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "ADMINISTRATIVE OFFICER IV",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "36b6ca98d9e53466"
+  },
+  {
+    "employeeId": "03-12570",
+    "name": "SANCHEZ, SHALIZA SALAZAR",
+    "section": "OFFICE OF THE HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT DIVISON CHIEF",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "f4d14b48c1baac2c"
+  },
+  {
+    "employeeId": "03-0202",
+    "name": "DEL ROSARIO, THEA MARIA RICA SUMANG",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "PERMANENT",
+    "hash": "90c5c718ed5164c5"
+  },
+  {
+    "employeeId": "03-9958",
+    "name": "ESGUERRA, KAE RAUSSENVI ESGUERRA",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "PERMANENT",
+    "hash": "226302f42ab844d6"
+  },
+  {
+    "employeeId": "03-10998",
+    "name": "PALOMARES, MARIA KATRINA TABULA",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "PERMANENT",
+    "hash": "a3e1ebaa0b736c7b"
+  },
+  {
+    "employeeId": "03-11630",
+    "name": "MAMAC, MARICRIS POPATCO",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT I",
+    "employmentStatus": "PERMANENT",
+    "hash": "9e8298a27d041c57"
+  },
+  {
+    "employeeId": "03-12345",
+    "name": "CARIAGA, MICAH DARMIE ISIDRO",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE AIDE IV",
+    "employmentStatus": "PERMANENT",
+    "hash": "eb24f758c9dcbca6"
+  },
+  {
+    "employeeId": "03-10349",
+    "name": "DORIA, JERICO SALAS",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "b9eab5c521070889"
+  },
+  {
+    "employeeId": "03-11056",
+    "name": "SANTIAGO, KIM DANIELLA TOLENTINO",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "79041d71ab43c6f2"
+  },
+  {
+    "employeeId": "03-10597",
+    "name": "MAGTOTO, CAMILLE TAPNIO",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II (CLUSTER)",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "98c2c7bfa5a743ac"
+  },
+  {
+    "employeeId": "03-13343",
+    "name": "DIAMSE, EARIEL MAY ANCHETA",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER IV",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "3a8f0992e2e4979a"
+  },
+  {
+    "employeeId": "03-13029",
+    "name": "TANINGCO, ALESSANDRA AIYEN HERNANDEZ",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "3afc574ed32edff7"
+  },
+  {
+    "employeeId": "03-13361",
+    "name": "QUIAMBAO, LEE ANDREI MANALASTAS",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "0d24f97bbb746c07"
+  },
+  {
+    "employeeId": "03-12465",
+    "name": "PINEDA, CJ VIAMAE FABIAN",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "50e128a01f1a712a"
+  },
+  {
+    "employeeId": "03-13248",
+    "name": "ZAMBRANO, ALLEN JOSHUA PUYONG",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "57a3892716570400"
+  },
+  {
+    "employeeId": "03-11933",
+    "name": "CORDERO, MEICE MARSHA CONDE",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "71d6b644edc193e2"
+  },
+  {
+    "employeeId": "03-12479",
+    "name": "SANTOS, IAN MAGTOTO",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "d95483dd716e22ca"
+  },
+  {
+    "employeeId": "03-13249",
+    "name": "BONDOC, LAURENCE RAPHAEL MARIN",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "SOCIAL WELFARE AIDE",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "bf6378ea44378c4e"
+  },
+  {
+    "employeeId": "03-13336",
+    "name": "SICAT, BONNA MAE CABRERA",
+    "section": "HUMAN RESOURCE PLANNING AND PERFORMANCE MANAGEMENT SECTION",
+    "position": "SOCIAL WELFARE AIDE",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "882afb69581b668b"
+  },
+  {
+    "employeeId": "03-8400",
+    "name": "QUITO, JOBELLE DIANA DIWA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE OFFICER V",
+    "employmentStatus": "PERMANENT",
+    "hash": "29dd493da577ce09"
+  },
+  {
+    "employeeId": "03-0232",
+    "name": "ADRIANO, MARYJO PARNACIO",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "PERMANENT",
+    "hash": "b9316edabfb98ae0"
+  },
+  {
+    "employeeId": "03-12850",
+    "name": "LINGA, LORENA LIWANAG",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE OFFICER IV",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "42ad9cdcd3f4eeb3"
+  },
+  {
+    "employeeId": "03-9719",
+    "name": "REYES, CYRIN PAULA DAVID",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "9aa64c30f2ed8815"
+  },
+  {
+    "employeeId": "03-13245",
+    "name": "ALVARADO, ARIELLE KEITH SANDAAN",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT III",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "6915b888aed4461f"
+  },
+  {
+    "employeeId": "03-11964",
+    "name": "TORRES, AUBRY MADLA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT III",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "a6bd560192bd3f63"
+  },
+  {
+    "employeeId": "03-10517",
+    "name": "MAÑALAC, JOHN NOUEL PINEDA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT III",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "7e10e8772938d8ec"
+  },
+  {
+    "employeeId": "03-0154",
+    "name": "DIZON, MARIA ZITA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "PERMANENT",
+    "hash": "32e4284c45995bff"
+  },
+  {
+    "employeeId": "03-10161",
+    "name": "SICAT, JASMIN GONZALES",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "PERMANENT",
+    "hash": "fa40ab8837596a30"
+  },
+  {
+    "employeeId": "03-9514",
+    "name": "CAPINPIN, ROSE MARGARETTE OJEDA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II (CLUSTER)",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "0c0f780ffdcd8132"
+  },
+  {
+    "employeeId": "03-10716",
+    "name": "USON, MARY ROSE CRUZ",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT I",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "01b19a4474d504f3"
+  },
+  {
+    "employeeId": "03-12092",
+    "name": "VELASCO, JUANITO SILANGAN IV ONATE",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "PROJECT DEVELOPMENT OFFICER II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "d028e5c18c410d99"
+  },
+  {
+    "employeeId": "03-12622",
+    "name": "FLORES, RICA JAENELA TONGOL",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "9e7dcd1bfae60e15"
+  },
+  {
+    "employeeId": "03-11331",
+    "name": "GONZALES, JOMAR LAZARO",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "4c6236016935d63a"
+  },
+  {
+    "employeeId": "03-11891",
+    "name": "IÑIGO, IANA CHRISTINE TEODORO",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "8803829d60ff3bfb"
+  },
+  {
+    "employeeId": "03-12592",
+    "name": "ESTEBAN, KRIZELLE JOY CORPUZ",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "06354740db268f2a"
+  },
+  {
+    "employeeId": "03-11892",
+    "name": "BURAC, MARK DANIEL BUEGUIZ",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "97e6248bc547741f"
+  },
+  {
+    "employeeId": "03-12348",
+    "name": "MANDURIAO, ARLYN BACUNAL",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "61edd1c224498d73"
+  },
+  {
+    "employeeId": "03-12591",
+    "name": "SISON, SONNY BOY JR. BURGOS",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "fdb740d7dcb58746"
+  },
+  {
+    "employeeId": "03-12438",
+    "name": "MASCARIÑAS, ERICKSON TIAMZON",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "92b1ffa32a1a3d8d"
+  },
+  {
+    "employeeId": "03-13107",
+    "name": "COLOMA, EMMY ROSE BAUTISTA",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "0926ec6784afdfac"
+  },
+  {
+    "employeeId": "03-12691",
+    "name": "PANGAN, EUGENE BACANI",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "SOCIAL WELFARE ASSISTANT",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "99f1231fad8d5946"
+  },
+  {
+    "employeeId": "03-12701",
+    "name": "RIVERA, ROLAINE GATUS",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT I",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "e886a28700c99af0"
+  },
+  {
+    "employeeId": "03-12729",
+    "name": "HIPOLITO, MARILOU MACALINO",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "SOCIAL WELFARE AIDE",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "1c6d8ad7f24a6f1f"
+  },
+  {
+    "employeeId": "03-13242",
+    "name": "MANALANG, KATHLEEN ANN BULACSAO",
+    "section": "PERSONNEL ADMINISTRATION SECTION",
+    "position": "ADMINISTRATIVE AIDE I",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "9e261334b6af5b6c"
+  },
+  {
+    "employeeId": "03-9381",
+    "name": "MAÑALAC, HELEN PATRICIA ORTIZ",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "PERMANENT",
+    "hash": "74200fbcfbf6968c"
+  },
+  {
+    "employeeId": "03-12704",
+    "name": "GARCIA, ANGELA FRANCESCA MALLARI",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE AIDE IV",
+    "employmentStatus": "PERMANENT",
+    "hash": "31b9e1aaece681e5"
+  },
+  {
+    "employeeId": "03-9862",
+    "name": "BUITIZON, FRANCIS MOISES DE GUZMAN",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT III",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "3ff470583db31f98"
+  },
+  {
+    "employeeId": "03-9232",
+    "name": "LABUNG, PHOEBE RIVERO",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II (CLUSTER)",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "f5061d61a459ee95"
+  },
+  {
+    "employeeId": "03-12389",
+    "name": "JACOB, PRINCESS MAERY CARREON",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "NURSE I",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "f03243c7b62a761e"
+  },
+  {
+    "employeeId": "03-11969",
+    "name": "MERCADO, DAPHNE GAYLE FAJARDO",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "c1aec147c8a1c0ca"
+  },
+  {
+    "employeeId": "03-12571",
+    "name": "BOGNOT, JHEZEL CABUSO",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "d6b0c72b654a5693"
+  },
+  {
+    "employeeId": "03-13102",
+    "name": "MUÑOZ, JUSTINE LOUISE LOPEZ",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "0df3ee4f33e071a0"
+  },
+  {
+    "employeeId": "03-12609",
+    "name": "DORIA, JOVAINE MARIE SALAS",
+    "section": "HUMAN RESOURCE WELFARE SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "c468d6bfed956a28"
+  },
+  {
+    "employeeId": "03-0204",
+    "name": "LACSON, SHEILA SANTOS",
+    "section": "LEARNING AND DEVELOPMENT SECTION",
+    "position": "ADMINISTRATIVE OFFICER II",
+    "employmentStatus": "PERMANENT",
+    "hash": "f2e204cd2f534631"
+  },
+  {
+    "employeeId": "03-9657",
+    "name": "DOMINGO, EVERLEEN ISIP",
+    "section": "LEARNING AND DEVELOPMENT SECTION",
+    "position": "TRAINING SPECIALIST I",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "edea9f3a5476f241"
+  },
+  {
+    "employeeId": "03-11906",
+    "name": "MANALO, FRANCESCA GWEN POPATCO",
+    "section": "LEARNING AND DEVELOPMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II (CLUSTER)",
+    "employmentStatus": "CONTRACTUAL",
+    "hash": "06f0f96b6a95f526"
+  },
+  {
+    "employeeId": "03-12511",
+    "name": "LUGTU, JOCEL DIZON",
+    "section": "LEARNING AND DEVELOPMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "c1d3cdc27075e3e0"
+  },
+  {
+    "employeeId": "03-12700",
+    "name": "MACABINLAR, MICAH ELLA PILO",
+    "section": "LEARNING AND DEVELOPMENT SECTION",
+    "position": "ADMINISTRATIVE ASSISTANT II",
+    "employmentStatus": "CONTRACT OF SERVICE",
+    "hash": "ea04e4d7c84db5f6"
+  }
+]

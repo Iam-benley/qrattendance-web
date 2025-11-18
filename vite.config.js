@@ -9,7 +9,7 @@ export default defineConfig({
     host: true,
     port: 5173,
     strictPort: true,
-    allowedHosts: ["ware-thesaurus-five-pioneer.trycloudflare.com"],
+    allowedHosts: ["wonderful-improve-sandra-linux.trycloudflare.com"],
     proxy: {
       "/api": {
         target: "http://172.31.44.120:3001", // use localhost (avoids firewall on LAN IP)

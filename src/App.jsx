@@ -13,9 +13,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/generate" element={<GenerateAttendance />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           {/* Protected routes */}
           <Route element={<PrivateRoute />}>
-            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/attendance" element={<AttendancePage />} />
           </Route>
         </Routes>

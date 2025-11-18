@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { QrCode, X } from "lucide-react";
+import { QrCode, X, Download, Loader } from "lucide-react";
 import { getAuthUser } from "../utils/auth";
 import { useNavigate } from "react-router-dom";
 import { Scanner } from "@yudiel/react-qr-scanner";
@@ -9,14 +9,31 @@ import toast from "react-hot-toast";
 export default function QRGeneratorPage() {
   const [showScanner, setShowScanner] = useState(false);
   const [user, setUser] = useState(null);
+  const [scanned, setScanned] = useState(false);
+  const [eligible, setEligible] = useState(false);
+  const [downloading, setDownloading] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     const authUser = getAuthUser();
     if (authUser) {
       setUser(authUser);
+      checkEligibility();
     }
   }, []);
+
+  const checkEligibility = async () => {
+    try {
+      const response = await api.get("/certificate/check-eligibility");
+      const { eligible: isEligible, scanned: hasScanned } = response.data;
+      setEligible(isEligible);
+      setScanned(hasScanned);
+    } catch (error) {
+      console.error("Eligibility check error:", error);
+      setEligible(false);
+      setScanned(false);
+    }
+  };
 
   const handleScanQR = async (result) => {
     if (!result) return;
@@ -47,22 +64,22 @@ export default function QRGeneratorPage() {
       const data = response.data;
 
       if (data.ok) {
-        const { employee, alreadyScanned, scanTime } = data;
+        const { alreadyScanned, eligible: isEligible } = data;
 
         if (alreadyScanned) {
-          toast.success(
-            `${employee.name} already scanned!\nFirst scan: ${new Date(
-              scanTime
-            ).toLocaleTimeString()}`,
-            { duration: 4000 }
-          );
+          toast.error("You have already scanned your attendance.", {
+            duration: 4000,
+          });
         } else {
-          toast.success(
-            `✅ ${employee.name}\n${employee.position} - ${
-              employee.section
-            }\nScanned at: ${new Date(scanTime).toLocaleTimeString()}`,
-            { duration: 4000 }
-          );
+          toast.success("✅ Attendance logged successfully!", {
+            duration: 4000,
+          });
+        }
+
+        // Update eligibility state after scan
+        if (isEligible) {
+          setEligible(true);
+          setScanned(true);
         }
       } else {
         toast.error(data.message || "Scan failed");
@@ -73,6 +90,52 @@ export default function QRGeneratorPage() {
         error.response?.data?.message ||
           "Failed to scan QR code. Please try again."
       );
+    }
+  };
+
+  const handleDownloadCertificate = async () => {
+    const authUser = getAuthUser();
+    if (!authUser || !authUser.code) {
+      toast.error("User code not found. Please login again.");
+      return;
+    }
+
+    setDownloading(true);
+    try {
+      const response = await api.post(
+        "/generate-certificate",
+        {
+          code: authUser.code,
+        },
+        {
+          responseType: "blob",
+        }
+      );
+
+      // Create a blob URL and trigger download
+      const url = window.URL.createObjectURL(response.data);
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute(
+        "download",
+        `certificate_${authUser.userId || "cert"}.pdf`
+      );
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+
+      toast.success("✅ Certificate downloaded successfully!", {
+        duration: 4000,
+      });
+    } catch (error) {
+      console.error("Download error:", error);
+      toast.error(
+        error.response?.data?.error ||
+          "Failed to download certificate. Please try again."
+      );
+    } finally {
+      setDownloading(false);
     }
   };
 
@@ -147,17 +210,45 @@ export default function QRGeneratorPage() {
                 Welcome, {user?.name || "User"}
               </h2>
               <p className="text-base sm:text-lg text-gray-600">
-                Scan an event QR code to record your attendance
+                {eligible && scanned
+                  ? "You are eligible for a certificate!"
+                  : "Scan an event QR code to record your attendance"}
               </p>
             </div>
 
-            <button
-              onClick={() => setShowScanner(true)}
-              className="bg-teal-700 hover:bg-teal-600 text-white px-12 py-6 rounded-2xl font-bold text-xl transition flex items-center gap-4 shadow-lg hover:shadow-xl"
-            >
-              <QrCode className="w-8 h-8" />
-              Scan QR Code
-            </button>
+            {/* Show Download Certificate Button if eligible and scanned */}
+            {eligible && scanned ? (
+              <button
+                onClick={handleDownloadCertificate}
+                disabled={downloading}
+                className={`${
+                  downloading
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-green-600 hover:bg-green-700"
+                } text-white px-12 py-6 rounded-2xl font-bold text-xl transition flex items-center gap-4 shadow-lg hover:shadow-xl disabled:hover:shadow-lg`}
+              >
+                {downloading ? (
+                  <>
+                    <Loader className="w-8 h-8 animate-spin" />
+                    Generating Certificate...
+                  </>
+                ) : (
+                  <>
+                    <Download className="w-8 h-8" />
+                    Download Certificate
+                  </>
+                )}
+              </button>
+            ) : (
+              /* Show Scan QR Code Button if not eligible or not scanned */
+              <button
+                onClick={() => setShowScanner(true)}
+                className="bg-teal-700 hover:bg-teal-600 text-white px-12 py-6 rounded-2xl font-bold text-xl transition flex items-center gap-4 shadow-lg hover:shadow-xl"
+              >
+                <QrCode className="w-8 h-8" />
+                Scan QR Code
+              </button>
+            )}
           </div>
         </div>
       </main>
